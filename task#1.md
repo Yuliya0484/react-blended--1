@@ -72,3 +72,13 @@ import article from 'data/article.json';
   postedAt={article.postedAt}
 />;
 ```
+
+import { formatDistanceToNow } from "date-fns";
+
+export const formatDateToNow=(date)=>{ return formatDistanceToNow(new
+Date(date), { addSuffix: true }); }
+
+const icons = [ <FaRegThumbsUp key={1} />, <MdPeople key={2} />,
+<MdOutlineProductionQuantityLimits key={3} />, <GiTreeDoor key={4} />, ];
+<IconContext.Provider value={{ color: 'blue', size: '30px' }}> {icon}
+</IconContext.Provider>

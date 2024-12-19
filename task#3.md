@@ -22,7 +22,7 @@
   </div>
 
   <ul className={style.list}>
-     {/* Довільна кіл-сть
+    {/* Довільна кіл-сть
         <li className={style.item}>
            <ForbesListItem/>
         </li>
@@ -45,25 +45,17 @@
 
 Компонент повинен бути наступної структури.
 
-```jsx
-<>
-  <img
-    className={style.avatar}
-    src="https://randomuser.me/api/portraits/men/32.jpg"
-    alt="Mark Zuckerberg"
-  />
-  <h3 className={style.title}>Mark Zuckerberg</h3>
-  <span className={style.capital}>
-    35.7 <BiDollarCircle color="#2196f3" size={22} />
-    {/* Тут має бути необхідна іконка зміни статку */}
-  </span>
-</>
-```
+//```jsx // <> // <img // className={style.avatar} //
+src="https://randomuser.me/api/portraits/men/32.jpg" // alt="Mark Zuckerberg" //
+/> // <h3 className={style.title}>Mark Zuckerberg</h3> //
+<span className={style.capital}> // 35.7
+<BiDollarCircle color="#2196f3" size={22} /> // {/_ Тут має бути необхідна
+іконка зміни статку _/} // </span> // </>
 
-## Приклад використання
+<!-- ## Приклад використання
 
-```js
+js
 import forbes from 'data/forbes.json';
 
 <ForbesList list={forbes} />,
-```
+ -->
